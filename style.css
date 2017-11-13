@@ -1,0 +1,32 @@
+html,body{
+	box-sizing: border-box;
+	width:100%;
+	margin:0;
+}
+.background{
+	position: relative;
+	width:100%;
+	overflow: hidden;
+}
+.road{
+	width:100%;
+}
+.car{
+	position: absolute;
+	top:36%;
+	left:25%;
+	transform:scale(0.1);
+	width:50%;
+}
+.car img{
+	width:100%;
+}
+.cloud{
+	position: absolute;
+	top:50px;
+	left:-100px;
+	width:300px;
+}
+.cloud-2{
+	top:80px;
+}
